@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ajar university || World's Biggest University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo" >AJAR university</a>
+            <div class="nav-links" id="NavLinks">
+                <i class="fa fa-times" id="hide" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT us</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT uS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="show" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.3825664893!2d75.65047137756247!3d26.88544791596203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1660374251768!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Jaipur</h5>
+                        <p>Jaipur Rajasthan</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+236 145 3265</h5>
+                        <p>Monday to Saturday; 10:00 to 5:00</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ajar.priyatam.786@gmail.com</h5>
+                        <p>Message for your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formhandler.php" method="POST">
+                    <input type="text" name="name"  placeholder="Enter your Name" required>
+                    <input type="text" name="email" placeholder="Enter your Email address" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                    <textarea rows="8" name="Message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quae eos quam eaque delectus rem <br> recusandae voluptatum, eum ut tempora ullam excepturi reprehenderit exercitationem enim labore</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-google"></i>
+            <a href="https://www.linkedin.com/in/priyatam-ajar-25b75019b/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Created <i class="fa fa-heart-o"></i> by Priyatam Ajar</p>
+    </section>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
